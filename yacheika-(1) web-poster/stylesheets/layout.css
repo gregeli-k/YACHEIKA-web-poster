@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+h1 {
+    margin: 0;
+    position: relative;
+    font-family: "CoFo Peshka VF 380 Medium";
+    font-weight: bold;
+}
