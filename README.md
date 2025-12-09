@@ -1,1 +1,0 @@
-# YACHEIKA-web-poster
