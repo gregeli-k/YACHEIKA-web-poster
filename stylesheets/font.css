@@ -1,16 +1,24 @@
-@font-face {
-  font-family: "CoFo Peshka VF 380 Medium";
-  src: url("path/to/font/file/font/CoFo_Peshka_VF_0_Black.otf")
-    format("otf-variations");
-  font-weight: 125 950;
-  font-stretch: 75% 125%;
+ @font-face {
+  font-family: "Peshka-Black-750";
+  src: url("../font/CoFoPeshka750-750Black-Trial.otf") format("opentype");
+  font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: "CoFo Peshka VF 380 Medium";
-  src: url("path/to/font/file/font/CoFo_Peshka_VF_0_Black.otf")
-    format("otf-variations");
-  font-weight: 125 950;
-  font-stretch: 75% 125%;
+  font-family: "Peshka-Black-380";
+  src: url("../font/CoFoPeshka380-380Black-Trial.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Peshka-Medium-380";
+  src: url("../font/CoFoPeshka380-380Medium-Trial.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Peshka-Light-380";
+  src: url("../font/CoFoPeshka380-380Light-Trial.otf") format("opentype");
+  font-weight: 300;
   font-style: normal;
 }
