@@ -4,7 +4,18 @@
 /* body{
 background-color: rgba(230, 230, 230, 1);} */
 body{
-background-color: rgba(230, 230, 230, 1);}
+background-color: rgba(230, 230, 230, 1);
+}
+.theend{
+overflow: hidden;
+}
+.block-1{
+overflow: hidden;
+}
+
+.block-3{
+  overflow: hidden;
+}
 
 body::before {
   visibility: hidden;
@@ -333,4 +344,438 @@ z-index: -1;
     align-items: flex-end;
     justify-content: flex-end;
     margin-left: 2vw;
+}
+
+
+/* начало 3-ей секции */
+.block-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.9vw;
+    margin-top: 1.66vw
+}
+.dis {
+  display: flex;
+  padding: auto;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+    width: 27.8vw;
+  height: 6.8vw;
+  border: 0.20vw solid #000000;
+  background-color: #ffffff;
+}
+.dis p {
+  margin-top: 0.5vw;
+  text-align: start;
+  white-space: nowrap;
+    color: #000000;
+    font-family: "Peshka-Black-380";
+    font-size: 3.4vw;
+    margin-left: 1.1vw;
+}
+.under-dis {
+  display: flex;
+  padding: auto;
+  align-items: center;
+    width: 27.8vw;
+  height: 5.58vw;
+  border: 0.20vw solid #000000;
+  margin-top: -0.2vw;
+   background-color: rgba(59, 104, 91, 1);
+}
+.under-dis p {
+  margin-left: 1.1vw;
+    color: #ffffff;
+    font-family: "Peshka-Medium-380";
+    font-size: 2vw;
+}
+.text-3{
+    display: flex;
+    flex-direction: column;
+}
+.chr-3{
+    width: 17.7vw;
+    margin-top: 0vw;
+    margin-left: 0.1vw;
+    margin-top: -0.05vw;
+}
+.chr-3-2{
+    width: 26.6vw;
+    margin-top: -0.1vw;
+    margin-left: 2.7vw;
+}
+.empties-3 {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+gap: 1vw;
+margin-top: -1.358vw;
+}
+.empty-9 {
+     width: 100%;
+  height: 1.4vw;
+  border-bottom: 0.2vw solid rgba(59, 104, 91, 1);
+margin-top: -5.01vw;
+z-index: -1;
+}
+.empty-10 {
+     width: 100%;
+  height: 1.4vw;
+  border-top: 0.2vw solid rgba(59, 104, 91, 1);
+  border-bottom: 0.2vw solid rgba(59, 104, 91, 1);
+  z-index: -1;
+  
+}.empty-11 {
+     width: 100%;
+  height: 1.4vw;
+  border-top: 0.2vw solid rgba(59, 104, 91, 1);
+  border-bottom: 0.2vw solid rgba(59, 104, 91, 1);
+  z-index: -1; 
+}
+.empty-12{
+     width: 100%;
+  height: 0.8vw;
+  border-top: 0.2vw solid rgba(59, 104, 91, 1);
+  border-bottom: 0.2vw solid rgba(59, 104, 91, 1);
+  z-index: -1;
+}
+.empty-12 p {
+  text-align: center;
+  overflow: hidden;
+    color: rgba(241, 179, 204, 1);
+    font-family: "Peshka-Black-380";
+    font-size: 0.5vw;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.iero-3 {
+  display: flex;
+  padding: auto;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+    width: 27.8vw;
+  height: 6.8vw;
+  border: 0.20vw solid #000000;
+  background-color: rgba(121, 175, 141, 1);
+}
+.iero-3 p {
+  text-align: end;
+  white-space: nowrap;
+    color: rgba(230, 230, 230, 1);
+    font-family: "Peshka-Black-380";
+    font-size: 7.8vw;
+    font-weight: bold;
+    margin-top: -0.59vw;
+}
+.iero-4 {
+ display: flex;
+  padding: auto;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+    width: 28.8vw;
+  height: 6vw;
+  border: 0.20vw solid #000000;
+  margin-top: 1.8vw;
+   background-color: rgba(44, 90, 186, 1);
+  }
+
+.iero-4 p {
+   text-align: end;
+  white-space: nowrap;
+    color: rgba(230, 230, 230, 1);
+    font-family: "Peshka-Black-380";
+   font-size: 6.33vw;
+    margin-top: -0.30vw;
+  font-weight: bold;
+}
+/* конец 3-ей секции */
+
+/* начало 4-ой секции */
+.under-rez {
+  display: flex;
+  padding: auto;
+  align-items: center;
+    width: 27.8vw;
+  height: 5.58vw;
+  border: 0.20vw solid #000000;
+  margin-top: -0.2vw;
+   background-color: rgba(167, 141, 58, 1);
+}
+.under-rez p {
+  margin-left: 1.1vw;
+    color: #ffffff;
+    font-family: "Peshka-Medium-380";
+      font-size: 2vw;
+    }
+    .illtext-4 p {
+  font-size: 11vw;
+  font-weight: bold;
+  color:rgba(230, 230, 230, 1) ;
+    margin-top: 2.52vw;
+    margin-left: -43.3vw;}
+/* конец 4-ой секции */
+
+
+/* начало 5-ой секции */
+.chr-5{
+    width: 27vw;
+    margin-top: 0vw;
+    margin-left: 0.1vw;
+    margin-top: -0.05vw;
+}
+.chr-5-2{
+    width: 8.85vw;
+    margin-top: -0.1vw;
+      margin-left: 11vw;}
+      .empties-5 {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+gap: 1vw;
+  margin-top: -1.2vw;}
+
+  .iero-5 {
+  display: flex;
+  padding: auto;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+    width: 27.8vw;
+  height: 6.8vw;
+  border: 0.20vw solid #000000;
+  background-color: rgba(241, 179, 204, 1);
+}
+
+.iero-5 p {
+  text-align: end;
+  white-space: nowrap;
+    color: rgba(230, 230, 230, 1);
+    font-family: "Peshka-Black-380";
+    font-size: 7.8vw;
+    font-weight: bold;
+    margin-top: -0.59vw;
+}
+
+.iero-6 {
+ display: flex;
+  padding: auto;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+    width: 28.8vw;
+  height: 6vw;
+  border: 0.20vw solid #000000;
+  margin-top: 1.8vw;
+   background-color: rgba(162, 205, 195, 1);
+  }
+
+.iero-6 p {
+   text-align: end;
+  white-space: nowrap;
+    color: rgba(230, 230, 230, 1);
+    font-family: "Peshka-Black-380";
+   font-size: 6.33vw;
+    margin-top: -0.27vw;
+  font-weight: bold;
+}
+.empty-13{
+     width: 100%;
+  height: 0.8vw;
+  border-top: 0.2vw solid rgba(59, 104, 91, 1);
+  border-bottom: 0.2vw solid rgba(59, 104, 91, 1);
+  z-index: -1;
+}
+.empty-13 p {
+  text-align: center;
+  overflow: hidden;
+    color: rgba(162, 205, 195, 1);
+    font-family: "Peshka-Black-380";
+    font-size: 0.5vw;
+    font-weight: bold;
+    white-space: nowrap;
+}
+/* конец 5-ой секции */
+
+/* начало 6-ой секции */
+.last-chair-l {
+display: flex;
+    flex-direction: row;
+     width: 50%;
+    height: 100%;
+    align-items: baseline;
+    justify-content: flex-start;
+margin-top: 5.3vw;
+overflow: hidden;
+z-index: -1;
+}
+/* начало 6-ой секции */
+
+.last-chair-r {
+  display: flex;
+    flex-direction: row;
+     width: 100%;
+    height: 100%;
+    align-items: baseline;
+    justify-content: flex-end;
+    z-index: -1;
+}
+.theend {
+  display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.last-all-l {
+  width: 15vw;
+}
+.last-all-r {
+  width: 10;
+}
+
+.лин-1 {
+  display: flex;
+  overflow: hidden;
+  border-left: 0.2vw solid #000000;
+  border-right: 0.2vw solid #000000;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 2;
+  width: 2vw;
+  height: 118.2vw;
+  left: calc(59.55vw);
+}
+.лин-2 {
+  display: flex;
+  overflow: hidden;
+  border-left: 0.2vw solid #000000;
+  border-right: 0.2vw solid #000000;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 2;
+  width: 2vw;
+  height: 118.2vw;
+  left: calc(53.8vw);
+}
+.лин-3 {
+   display: flex;
+   overflow: hidden;
+  border-left: 0.2vw solid #000000;
+  border-right: 0.2vw solid #000000;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 2;
+  width: 2vw;
+  height: 118.2vw;
+  left: calc(48.05vw);
+}
+.лин-4 {
+   display: flex;
+   overflow: hidden;
+  border-left: 0.2vw solid #000000;
+  border-right: 0.2vw solid #000000;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 2;
+  width: 2vw;
+  height: 118.2vw;
+  left: calc(42.3vw);
+}
+.лин-5 {
+  display: flex;
+  overflow: hidden;
+  border-left: 0.2vw solid #000000;
+  border-right: 0.2vw solid #000000;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 2;
+  width: 2vw;
+  height: 118.2vw;
+  left: calc(36.55vw);
+}
+.лин-1 p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+    justify-content: center;
+  overflow: hidden;
+    color:rgba(162, 205, 195, 1);
+    font-family: "Peshka-Black-380";
+    font-size: 1.4vw;
+    font-weight: bold;
+  z-index: 2;
+}
+.лин-2 p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+    justify-content: center;
+  overflow: hidden;
+    color:rgba(167, 141, 58, 1);
+    font-family: "Peshka-Black-380";
+    font-size: 1.4vw;
+    font-weight: bold;
+  z-index: 2;
+}
+.лин-3 p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+    justify-content: center;
+  overflow: hidden;
+    color:rgba(241, 179, 204, 1);
+    font-family: "Peshka-Black-380";
+    font-size: 1.4vw;
+    font-weight: bold;
+  z-index: 2;
+}
+.лин-4 p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+    justify-content: center;
+  overflow: hidden;
+    color:rgba(54, 124, 74, 1);
+    font-family: "Peshka-Black-380";
+    font-size: 1.4vw;
+    font-weight: bold;
+  z-index: 2;
+}
+.лин-5 p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+    justify-content: center;
+  overflow: hidden;
+    color:rgba(44, 90, 186, 1);
+    font-family: "Peshka-Black-380";
+    font-size: 1.4vw;
+    font-weight: bold;
+  z-index: 2;
+}
+.authors {
+  text-align: center;
+  overflow: hidden;
+    color: #000000;
+    font-family: "Peshka-Light-380";
+    font-size: 4vw;
+}
+.see-ya {
+  display: flex;
+  padding: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  flex-direction: row;
+  border-top: 0.2vw solid #000000;
+  border-bottom: 0.2vw solid #000000;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  margin-top: 10vw;
 }
