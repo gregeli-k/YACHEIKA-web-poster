@@ -28,10 +28,10 @@
 
 @keyframes drop {
     0% {
-        top: -10vw; /* Start off-screen above the top */
+        top: -10vw; 
     }
     100% {
-        top: 118.2vw; /* End position on the page */
+        top: 118.2vw; 
     }
 }
 .marquee-container {
