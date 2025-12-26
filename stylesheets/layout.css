@@ -642,8 +642,8 @@ z-index: -1;
 .лин-1 {
   display: flex;
   overflow: hidden;
-  border-left: 0.2vw solid #000000;
-  border-right: 0.2vw solid #000000;
+  border-left: 0.2vw solid rgba(59, 104, 91, 1);
+  border-right: 0.2vw solid rgba(59, 104, 91, 1);
   background-color: rgb(255, 255, 255);
   position: absolute;
   z-index: 2;
@@ -654,8 +654,8 @@ z-index: -1;
 .лин-2 {
   display: flex;
   overflow: hidden;
-  border-left: 0.2vw solid #000000;
-  border-right: 0.2vw solid #000000;
+  border-left: 0.2vw solid rgba(59, 104, 91, 1);
+  border-right: 0.2vw solid rgba(59, 104, 91, 1);
   background-color: rgb(255, 255, 255);
   position: absolute;
   z-index: 2;
@@ -666,8 +666,8 @@ z-index: -1;
 .лин-3 {
    display: flex;
    overflow: hidden;
-  border-left: 0.2vw solid #000000;
-  border-right: 0.2vw solid #000000;
+  border-left: 0.2vw solid rgba(59, 104, 91, 1);
+  border-right: 0.2vw solid rgba(59, 104, 91, 1);
   background-color: rgb(255, 255, 255);
   position: absolute;
   z-index: 2;
@@ -678,8 +678,8 @@ z-index: -1;
 .лин-4 {
    display: flex;
    overflow: hidden;
-  border-left: 0.2vw solid #000000;
-  border-right: 0.2vw solid #000000;
+  border-left: 0.2vw solid rgba(59, 104, 91, 1);
+  border-right: 0.2vw solid rgba(59, 104, 91, 1);
   background-color: rgb(255, 255, 255);
   position: absolute;
   z-index: 2;
@@ -690,8 +690,8 @@ z-index: -1;
 .лин-5 {
   display: flex;
   overflow: hidden;
-  border-left: 0.2vw solid #000000;
-  border-right: 0.2vw solid #000000;
+  border-left: 0.2vw solid rgba(59, 104, 91, 1);
+  border-right: 0.2vw solid rgba(59, 104, 91, 1);
   background-color: rgb(255, 255, 255);
   position: absolute;
   z-index: 2;
