@@ -641,6 +641,7 @@ z-index: -1;
 
 .лин-1 {
   display: flex;
+  flex-direction: column;
   overflow: hidden;
   border-left: 0.2vw solid rgba(59, 104, 91, 1);
   border-right: 0.2vw solid rgba(59, 104, 91, 1);
