@@ -1,3 +1,24 @@
+
+.marquee-container-2
+{
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.marquee-content-2 {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+  width:2vw;
+  height:118.2vw;
+}
+
+@keyframes marquee-2 {
+  0% {transform: translateY(0, 0);}
+  100% {transform: translateY(-100%); }
+}
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
+}
+
 .falling-element {
     position:absolute;
     left: 14.75vw;
@@ -43,12 +64,270 @@
 .marquee-content-fir {
   display: inline-block;
   padding-left: 100%;
-  animation: marquee 40s linear infinite; 
+  animation: marquee 20s linear infinite; 
 }
 @keyframes marquee {
   0% {transform: translateX(0, 0);}
   100% {transform: translateX(-100%); }
 }
 .marquee-container:hover .marquee-content {
-  animation-play-state: paused;
+    animation-play-state: paused;}
+
+
+
+
+
+
+
+
+.falling-element {
+    position: absolute;
+    left: 14.75vw;
+    top: 0;
+    animation: drop 5s forwards;
 }
+
+@keyframes drop {
+    0% {
+        top: -10vw; 
+    }
+    100% {
+        top: 118.2vw;
+    }
+}
+
+.last-all-r {
+    position: absolute;
+    left: 70vw;
+    top: 0;
+    animation: drop 5s forwards;
+}
+
+@keyframes drop {
+    0% {
+        top: -20vw; 
+    }
+    100% {
+        top: 118.2vw; 
+    }
+}
+
+
+ .illtext-1 {
+    animation: ill-txt;
+    animation-direction: alternate;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes ill-txt {
+    from {
+        transform: translateX(0vw);
+    }
+    to {
+        transform: translateX(18vw);
+    }
+ }
+
+ .iero-1 {
+    animation: iero-1;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes iero-1 {
+    from {
+        transform: translateX(0vw);
+    }
+    to {
+        transform: translateX(3vw);
+    }
+ }
+
+ .iero-2 {
+    animation: iero-2;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes iero-2 {
+    from {
+        transform: translateX(-1.85vw);
+    }
+    to {
+        transform: translateX(6vw);
+    }
+ }
+ .chr-1-2 {
+    animation: chr-1-2;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes chr-1-2 {
+    from {
+        transform: translateX(0vw);
+    }
+    100% {
+        transform: translateX(5vw);
+    }
+ }
+
+ .illtext-4 {
+    animation: ill-txt;
+    animation-direction: alternate;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes ill-txt {
+    from {
+        transform: translateX(0vw);
+    }
+    50% {
+        transform: translateX(7vw);
+    }
+    to {
+        transform: translateX(-10vw) ;
+    }
+ }
+ 
+ .iero-3 {
+    animation: iero-3;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes iero-3 {
+    from {
+        transform: translateX(-1.85vw);
+    }
+    to {
+        transform: translateX(6vw);
+    }
+ }
+
+ .iero-4 {
+    animation: iero-4;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes iero-4 {
+    from {
+        transform: translateX(0vw);
+    }
+    to {
+        transform: translateX(3vw);
+    }
+ }
+ .chr-3-2 {
+    animation: chr-1-2;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes chr-1-2 {
+    from {
+        transform: translateX(0vw);
+    }
+    100% {
+        transform: translateX(5vw);
+    }
+ }
+
+ .iero-5 {
+    animation: iero-1;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes iero-1 {
+    from {
+        transform: translateX(0vw);
+    }
+    to {
+        transform: translateX(3vw);
+    }
+ }
+
+ .iero-6 {
+    animation: iero-2;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes iero-2 {
+    from {
+        transform: translateX(-1.85vw);
+    }
+    to {
+        transform: translateX(6vw);
+    }
+ }
+ .chr-5-2 {
+    animation: chr-1-2;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+
+ }
+ @keyframes chr-1-2 {
+    from {
+        transform: translateX(0vw);
+    }
+    100% {
+        transform: translateX(5vw);
+    }
+ }

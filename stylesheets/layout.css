@@ -17,7 +17,7 @@ overflow: hidden;
   overflow: hidden;
 }
 
-body::before {
+/* body::before {
   visibility: hidden;
     content: "";
   position: absolute;
@@ -35,7 +35,7 @@ body::before {
   mix-blend-mode: screen;
   z-index: -1;
   background-color: rgba(230, 230, 230, 1);
-}
+} */
 
 .con-text {
   display: flex;
@@ -639,7 +639,7 @@ z-index: -1;
   width: 10;
 }
 
-.лин-1 {
+.lin-1 {
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -652,7 +652,7 @@ z-index: -1;
   height: 118.2vw;
   left: calc(59.55vw);
 }
-.лин-2 {
+.lin-2 {
   display: flex;
   overflow: hidden;
   border-left: 0.2vw solid rgba(59, 104, 91, 1);
@@ -664,9 +664,11 @@ z-index: -1;
   height: 118.2vw;
   left: calc(53.8vw);
 }
-.лин-3 {
+.lin-3 {
    display: flex;
    overflow: hidden;
+    text-align: center;
+  align-items: center;
   border-left: 0.2vw solid rgba(59, 104, 91, 1);
   border-right: 0.2vw solid rgba(59, 104, 91, 1);
   background-color: rgb(255, 255, 255);
@@ -676,9 +678,11 @@ z-index: -1;
   height: 118.2vw;
   left: calc(48.05vw);
 }
-.лин-4 {
+.lin-4 {
    display: flex;
    overflow: hidden;
+    text-align: center;
+  align-items: center;
   border-left: 0.2vw solid rgba(59, 104, 91, 1);
   border-right: 0.2vw solid rgba(59, 104, 91, 1);
   background-color: rgb(255, 255, 255);
@@ -688,9 +692,11 @@ z-index: -1;
   height: 118.2vw;
   left: calc(42.3vw);
 }
-.лин-5 {
+.lin-5 {
   display: flex;
   overflow: hidden;
+   text-align: center;
+  align-items: center;
   border-left: 0.2vw solid rgba(59, 104, 91, 1);
   border-right: 0.2vw solid rgba(59, 104, 91, 1);
   background-color: rgb(255, 255, 255);
@@ -700,7 +706,7 @@ z-index: -1;
   height: 118.2vw;
   left: calc(36.55vw);
 }
-.лин-1 p {
+.lin-1 p {
   display: flex;
   text-align: center;
   align-items: center;
@@ -708,11 +714,12 @@ z-index: -1;
   overflow: hidden;
     color:rgba(162, 205, 195, 1);
     font-family: "Peshka-Black-380";
-    font-size: 1.4vw;
+    font-size: 1.7vw;
     font-weight: bold;
+    
   z-index: 2;
 }
-.лин-2 p {
+.lin-2 p {
   display: flex;
   text-align: center;
   align-items: center;
@@ -720,11 +727,12 @@ z-index: -1;
   overflow: hidden;
     color:rgba(167, 141, 58, 1);
     font-family: "Peshka-Black-380";
-    font-size: 1.4vw;
+    font-size: 1.7vw;
     font-weight: bold;
+    
   z-index: 2;
 }
-.лин-3 p {
+.lin-3 p {
   display: flex;
   text-align: center;
   align-items: center;
@@ -732,11 +740,12 @@ z-index: -1;
   overflow: hidden;
     color:rgba(241, 179, 204, 1);
     font-family: "Peshka-Black-380";
-    font-size: 1.4vw;
+    font-size: 1.7vw;
     font-weight: bold;
+    
   z-index: 2;
 }
-.лин-4 p {
+.lin-4 p {
   display: flex;
   text-align: center;
   align-items: center;
@@ -744,11 +753,12 @@ z-index: -1;
   overflow: hidden;
     color:rgba(54, 124, 74, 1);
     font-family: "Peshka-Black-380";
-    font-size: 1.4vw;
+    font-size: 1.7vw;
     font-weight: bold;
+    
   z-index: 2;
 }
-.лин-5 p {
+.lin-5 p {
   display: flex;
   text-align: center;
   align-items: center;
@@ -756,8 +766,9 @@ z-index: -1;
   overflow: hidden;
     color:rgba(44, 90, 186, 1);
     font-family: "Peshka-Black-380";
-    font-size: 1.4vw;
+    font-size: 1.7vw;
     font-weight: bold;
+    
   z-index: 2;
 }
 .authors {
