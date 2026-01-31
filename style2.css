@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght,GRAD@0,17..18,400..700,-50..200;1,17..18,400..700,-50..200&display=swap');
+:root {
+    --bg: #0f0f0f;
+    --fg: #fff;
+    --card-1: #b2b2b2;
+    --card-2: #ac0000;
+    --card-3: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Google Sans;
+}
+a {
+    text-decoration: none;
+    color: #555; }
+/* }
+a {
+    text-decoration: none;
+    color: #555;
+}
+header{
+    width: 1140px;
+    max-width: 90%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+header .logo {
+    font-weight: bold;
+}
+header nav a {
+    margin-left: 30px;
+}
+
+.item {
+    margin-top: 50px;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+position: absolute;
+width: 1140px;
+max-width: 90%;
+left: 62%;
+}
+.item::before{
+    width: 550px;
+    height: 400px;
+    content: '';
+    background-image: linear-gradient(
+        45deg, #680000, #ac0000
+    );
+    position: absolute;
+    z-index: -1;
+    border-radius: 60% 10% 70% 50%;
+    filter: blur(110px);
+    top: 50%;
+    left: 30%;
+    transform: translate(-10%, -50%);
+    transition: 1s;
+} */
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+p{
+    font-size: 2rem;
+     font-weight: 500;
+      line-height: 1;
+}
+section {
+position: relative;
+width: 100%;
+height: 100svh;
+padding: 2rem;
+background: var(--bg);
+color: var(--fg);
+}
+.intro,
+.outro {
+text-align: center;
+align-content: center;
+}
+
+.sticky {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-header {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sticky-header h1 {
+    position: relative;
+    text-align: center;
+    will-change: transform, opacity;
+    transform: translateY(40px);
+    opacity: 0;
+}
+.card-container {
+    position: relative;
+    width: 75%;
+    display: flex;
+    perspective: 1000px;
+    transform: translateY(40px);
+    will-change: width;
+}
+.card {
+    position: relative;
+    flex: 1;
+    aspect-ratio: 5 / 7;
+    transform-style: preserve-3d;
+    transform-origin: top;
+}
+
+#card-1 {
+    border-radius: 20px 0 0 20px;
+}
+
+#card-3 {
+    border-radius: 0 20px 20px 0;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: inherit;
+    overflow: hidden;
+}
+
+.card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: rotateY(180deg);
+    padding: 2rem;
+    border-radius: 3.59281% / 2.58621%;
+}
+
+.card-back span {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    opacity: 0.4;
+    font-size: 2rem;
+}
+
+#card-1 .card-back {
+    background: linear-gradient(165.825deg,
+    rgb(199,199,199) 0%,
+     rgb(131,131,131) 100%);
+     color: var(--bg);
+}
+
+#card-2 .card-back {
+    background: linear-gradient(177deg,
+    rgb(219, 14, 14) -18%,
+     rgb(180, 11, 11) 31%,
+     rgb(72, 2, 2) -100%
+     );
+}
+ #card-3 .card-back {
+    background: linear-gradient(rgb(31, 31, 31) 0%, rgb(22, 22, 22) 100%);
+ }
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .intro h1,
+    .outro h1 {
+        width: 100%;
+    }
+
+    .sticky {
+        height: max-content;
+        padding: 4rem 2rem;
+        flex-direction: column;
+    }
+
+    .sticky-header {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin-bottom: 4rem;
+    }
+
+    .sticky-header h1 {
+        opacity: 1;
+    }
+
+    .card-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 20px !important;
+    }
+
+    #card-1,
+    #card-2,
+    #card-3,
+    .card-back {
+        transform: none;
+    }
+}
+
+
